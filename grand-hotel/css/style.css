@@ -10,3 +10,67 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 /* End Of: Common Styles */
+
+/* Begin: Navbar */
+/* Begin: Sidebar */
+.sidebar {
+    width: 8rem;
+    height: 100%;
+    background-color: #eee;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.line {
+    height: 0.2rem;
+    width: 2.5rem;
+    background-color: #222;
+    margin-bottom: 0.6rem;
+}
+
+.line-1, .line-3 {
+    width: 1.8rem;
+    transition: width 0.3s;
+}
+
+/* Hover effect for menu icon */
+.menu-icon:hover .line {
+    width: 2.5rem;
+}
+
+.social-icons-list {
+    list-style: none;
+    padding: 0px;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-link {
+    font-size: 2rem;
+    color: #777;
+    transition: color 0.3s;
+}
+
+/* Hover effect for social icons */
+.social-link:hover {
+    color: #deaa86;
+}
+
+.year {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #555;
+}
+/* End: Sidebar */
+/* End: Navbar */
