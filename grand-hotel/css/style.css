@@ -73,4 +73,12 @@ body {
     color: #555;
 }
 /* End: Sidebar */
+
+/* Begin: Navigation */
+.navigation {
+    margin-left: 8rem;
+    position: fixed;
+}
+/* End: Navigation */
+
 /* End: Navbar */
