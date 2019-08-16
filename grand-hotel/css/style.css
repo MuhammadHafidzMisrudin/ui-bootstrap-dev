@@ -78,6 +78,10 @@ body {
 .navigation {
     margin-left: 8rem;
     position: fixed;
+    width: 40rem;
+    height: 100%;
+    background: linear-gradient(to top,rgba(34, 32, 41, 1), rgba(34, 32, 41, 0.8)), url(../img/nav-bg.jpeg) center no-repeat;
+    background-size: cover; /* cover navigation by image */
 }
 /* End: Navigation */
 
