@@ -227,3 +227,9 @@ body {
 }
 /* End: Navigation */
 /* End: Navbar */
+
+/* Begin: Header */
+.header {
+    margin-left: 8rem;
+}
+/* End: Header */
