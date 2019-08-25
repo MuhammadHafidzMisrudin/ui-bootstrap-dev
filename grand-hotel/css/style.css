@@ -22,6 +22,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 
 .menu-icon {
@@ -38,7 +39,8 @@ body {
 
 .line-1, .line-3 {
     width: 1.8rem;
-    transition: width 0.3s;
+    /* transition: width 0.3s; */
+    transition: all 0.6s;
 }
 
 /* Hover effect for menu icon */
@@ -76,8 +78,9 @@ body {
 
 /* Begin: Navigation */
 .navigation {
-    margin-left: 8rem;
+    /* margin-left: 8rem; */
     position: fixed;
+    left: -32rem;
     width: 40rem;
     height: 100%;
     background: linear-gradient(to top,rgba(34, 32, 41, 1), rgba(34, 32, 41, 0.8)), url(../img/nav-bg.jpeg) center no-repeat;
@@ -86,6 +89,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    transition: left 0.8s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-heading {
@@ -198,6 +202,28 @@ body {
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
+}
+
+/* Click event style for navigation. Use a general sibling selector */
+.checkbox:checked ~ .navigation {
+    left: 8rem;
+}
+
+/* Transform a hamburger line 1 into X when clicked */
+.checkbox:checked ~ .sidebar .line-1 {
+    transform: rotate(-405deg) translate(-5px, 6px);
+    width: 2.5rem;
+}
+
+/* Hide a hamburger line 2 when clicked */
+.checkbox:checked ~ .sidebar .line-2 {
+    opacity: 0;
+}
+
+/* Transform a hamburger line 3 into X when clicked */
+.checkbox:checked ~ .sidebar .line-3 {
+    transform: rotate(405deg) translate(-5px, -6px);
+    width: 2.5rem;
 }
 /* End: Navigation */
 /* End: Navbar */
