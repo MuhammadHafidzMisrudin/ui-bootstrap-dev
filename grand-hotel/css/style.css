@@ -394,5 +394,32 @@ body {
 
 .about-us-images {
     flex: 1 1;
+    position: relative;
+}
+
+.image {
+    width: 32rem;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    box-shadow: 0 3rem 6rem rgba(0, 0 ,0, 0.4);
+    border-radius: 0.4rem;
+    border: 0.2rem solid #b85d1c;
+}
+
+.image-1 {
+    transform: translate(-20%, -90%);
+}
+
+.image-2 {
+    transform: translate(-70%, -70%);
+}
+
+.image-3 {
+    transform: translate(-50%, -50%);
+}
+
+.image-4 {
+    transform: translate(-30%, -30%);
 }
 /* End: About Us */
