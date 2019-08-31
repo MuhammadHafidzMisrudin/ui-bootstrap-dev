@@ -235,7 +235,8 @@ body {
 /* Begin: Header */
 .header {
     margin-left: 8rem;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 150vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../img/header-1.jpeg) center 
     no-repeat;
     background-size: cover;
@@ -397,6 +398,7 @@ body {
     position: relative;
 }
 
+/* Common style images */
 .image {
     width: 32rem;
     position: absolute;
@@ -407,18 +409,22 @@ body {
     border: 0.2rem solid #b85d1c;
 }
 
+/* Placement styles of image */
 .image-1 {
     transform: translate(-20%, -90%);
 }
 
+/* Placement styles of image */
 .image-2 {
     transform: translate(-70%, -70%);
 }
 
+/* Placement styles of image */
 .image-3 {
     transform: translate(-50%, -50%);
 }
 
+/* Placement styles of image */
 .image-4 {
     transform: translate(-30%, -30%);
 }
