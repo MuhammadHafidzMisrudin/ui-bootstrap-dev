@@ -550,3 +550,63 @@ body {
     transform: translateY(0.7rem);
 }
 /* End: Rooms */
+
+/* --------------------------------------------------------------------------- */
+
+/* Begin: Customers */
+.customers {
+    margin-left: 8rem;
+    padding-bottom: 7rem;
+    background-color: #15141b;
+}
+
+.customers-paragraph {
+    font-size: 1.8rem;
+    color: #ddd;
+    width: 50%;
+    margin: 2rem auto 8rem auto; /* Center the paragraph */
+    text-align: center;
+}
+
+.customers-card-wrapper {
+    display: flex;
+    justify-content: space-evenly; /* Center the card with even space */
+}
+
+.customer-card {
+    background-color: #eee;
+    width: 60rem;
+    display: flex;
+}
+
+.customer-image-wrapper {
+    margin: auto 0;
+}
+
+.customer-image {
+    width: 20rem;
+    margin-left: -1.3rem;
+}
+
+.customer-info {
+    padding: 0 2rem;
+}
+
+.customer-fullname {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.customer-paragraph-1 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #b85d1c;
+}
+
+.customer-paragraph-2 {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: justify;
+}
+/* End: Customers */
