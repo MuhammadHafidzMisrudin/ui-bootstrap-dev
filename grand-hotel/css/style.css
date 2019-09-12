@@ -680,15 +680,26 @@ body {
 .image-wrapper {
     width: 9rem;
     margin: 0.4rem;
+    overflow: hidden; /* Maintain the width of image when hover effect */
+
 }
 
 .footer-image {
     width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Make a backface element hidden - fix image's transform */
+    transition: all 0.5s; /* Make effect smoothly */
 }
 
 /* Create 2 rows 3 images */
 .gallery-images {
     display: flex;
     flex-wrap: wrap; /* Create 2 rows with wrap */
+}
+
+/* Hover effect on the gallery images when hovered */
+.footer-image:hover {
+    transform: scale(1.3);
+    opacity: 0.8;
 }
 /* End: Footer */
