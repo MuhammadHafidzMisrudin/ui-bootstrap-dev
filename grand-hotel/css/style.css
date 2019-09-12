@@ -610,3 +610,85 @@ body {
     text-align: justify;
 }
 /* End: Customers */
+
+/* --------------------------------------------------------------------------- */
+
+/* Begin: Footer */
+.footer {
+    margin-left: 8rem;
+}
+
+.main-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 4rem;
+}
+
+.footer-heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: goldenrod;
+    margin: 1rem 0 3rem 0;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list-item {
+    margin-bottom: 2rem;
+}
+
+.footer-list-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #bbb;
+}
+
+.contact p {
+    font-size: 1.5rem;
+    color: #bbb;
+    margin-bottom: 4rem;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-input {
+    width: 25rem;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #444;
+    outline: none;
+}
+
+.footer-btn {
+    padding: 1rem;
+    background-color: #b85d1c;
+    color: #ddd;
+    border: none;
+}
+
+.gallery {
+    max-width: 30rem;
+}
+
+.image-wrapper {
+    width: 9rem;
+    margin: 0.4rem;
+}
+
+.footer-image {
+    width: 100%;
+}
+
+/* Create 2 rows 3 images */
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap; /* Create 2 rows with wrap */
+}
+/* End: Footer */
