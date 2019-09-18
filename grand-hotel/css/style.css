@@ -731,6 +731,8 @@ body {
 }
 /* End: Footer */
 
+/* --------------------------------------------------------------------------- */
+
 /* CSS Media Queries for Responsive Design */
 @media(max-width: 1400px) {
     .customers-card-wrapper {
@@ -741,5 +743,18 @@ body {
     /* Only the first element of card styles be applied */
     .customer-card:first-child {
         margin-bottom: 3rem;
+    }
+
+    /* Main part section of footer */
+    .main-part {
+        flex-direction: column; /* Place 4 div elements in column */
+    }
+
+    .footer-list {
+        display: flex; /* Place list item in row with flex */
+    }
+
+    .footer-list-item {
+        margin-right: 3rem;
     }
 }
