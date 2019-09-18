@@ -681,7 +681,6 @@ body {
     width: 9rem;
     margin: 0.4rem;
     overflow: hidden; /* Maintain the width of image when hover effect */
-
 }
 
 .footer-image {
@@ -731,3 +730,16 @@ body {
     color: gold;
 }
 /* End: Footer */
+
+/* CSS Media Queries for Responsive Design */
+@media(max-width: 1400px) {
+    .customers-card-wrapper {
+        flex-direction: column; /* Cards are placed vertically in column */
+        align-items: center; /* Center cards element horizontally */
+    }
+
+    /* Only the first element of card styles be applied */
+    .customer-card:first-child {
+        margin-bottom: 3rem;
+    }
+}
