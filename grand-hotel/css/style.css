@@ -733,8 +733,11 @@ body {
 
 /* --------------------------------------------------------------------------- */
 
-/* CSS Media Queries for Responsive Design */
-@media(max-width: 1400px) {
+/* CSS Media Queries for Responsive Styles */
+/* Customer section and Footer section */
+@media(max-width: 1300px) {
+
+    /* Customer card of customer section */
     .customers-card-wrapper {
         flex-direction: column; /* Cards are placed vertically in column */
         align-items: center; /* Center cards element horizontally */
@@ -756,5 +759,24 @@ body {
 
     .footer-list-item {
         margin-right: 3rem;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* CSS Media Queries for Responsive Styles */
+/* About Us section */
+@media(max-width: 1000px) {
+    .about-us {
+        flex-direction: column; /* Elements are placed vertically in column */
+        padding-bottom: 20rem;
+    }
+
+    .about-us-content {
+        margin-bottom: 13rem;
+    }
+
+    .image {
+        width: 25rem;
     }
 }
