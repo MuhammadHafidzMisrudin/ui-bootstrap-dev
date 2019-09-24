@@ -92,6 +92,7 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+    z-index: 5;
 }
 
 .navigation-heading {
@@ -766,7 +767,7 @@ body {
 
 /* CSS Media Queries for Responsive Styles */
 /* About Us section */
-@media(max-width: 1000px) {
+@media(max-width: 1040px) {
     .about-us {
         flex-direction: column; /* Elements are placed vertically in column */
         padding-bottom: 20rem;
