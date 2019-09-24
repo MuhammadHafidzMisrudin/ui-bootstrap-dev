@@ -811,3 +811,34 @@ body {
         height: 100vh;
     }
 }
+
+/* --------------------------------------------------------------------------- */
+
+/* CSS Media Queries for Responsive Styles */
+/* Customer section and Footer section - Part 2 */
+@media(max-width: 700px) {
+
+    /* Customer section */
+    .customer-card {
+        flex-direction: column; /* Elements in customer card are placed vertically in column */
+        width: 20rem;
+    }
+
+    .customer-image {
+        margin-left: 0;
+    }
+
+    /* Footer section */
+    .footer-list {
+        display: block;
+    }
+
+    /* Creator part of footer section */
+    .creator-part {
+        flex-direction: column;
+    }
+
+    .copyright-text {
+        order: 1; /* Switch the order of elements in flex */
+    }
+}
