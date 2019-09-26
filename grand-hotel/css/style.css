@@ -735,7 +735,7 @@ body {
 /* --------------------------------------------------------------------------- */
 
 /* CSS Media Queries for Responsive Styles */
-/* Customer section and Footer section */
+/* Customer section and Footer section - Part 1 */
 @media(max-width: 1300px) {
 
     /* Customer card of customer section */
@@ -842,3 +842,5 @@ body {
         order: 1; /* Switch the order of elements in flex */
     }
 }
+
+/* --------------------------------------------------------------------------- */
