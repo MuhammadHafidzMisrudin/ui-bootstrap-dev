@@ -849,11 +849,6 @@ body {
 /* Smaller size: Customer section and Footer section */
 @media(max-width: 500px) {
 
-    /* Header part */
-    .header {
-        height: 120vh;
-    }
-
     /* Navigation section */
     .navigation {
         width: 28rem;
@@ -861,6 +856,29 @@ body {
 
     .navigation-search-input {
         width: 20rem;
+    }
+
+    /* Header part */
+    .header {
+        height: 120vh;
+    }
+
+    .banner {
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .hotel-heading {
+        font-size: 2rem;
+        margin: auto 0;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
     }
 
     /* About Us section */
