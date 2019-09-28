@@ -768,6 +768,7 @@ body {
 /* CSS Media Queries for Responsive Styles */
 /* About Us section */
 @media(max-width: 1040px) {
+
     .about-us {
         flex-direction: column; /* Elements are placed vertically in column */
         padding-bottom: 20rem;
@@ -881,7 +882,7 @@ body {
         font-size: 2rem;
     }
 
-    /* About Us section */
+    /* About us section */
     .about-us {
         padding-bottom: 15rem;
     }
@@ -902,5 +903,35 @@ body {
 
     .image {
         width: 13rem;
+    }
+
+    /* Common header section */
+    .common-heading {
+        font-size: 2rem;
+    }
+
+    .small-underline {
+        width: 5rem;
+    }
+
+    .big-underline {
+        width: 12rem;
+    }
+
+    /* Room section */
+    .room-card-heading {
+        font-size: 1.5rem;
+    }
+
+    .room-price {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+
+    .room-card-btn {
+        width: 12rem;
+        padding: 1rem 0.5rem;
+        font-size: 1rem;
     }
 }
