@@ -847,7 +847,7 @@ body {
 /* --------------------------------------------------------------------------- */
 
 /* CSS Media Queries for Responsive Styles */
-/* Smaller size: Customer section and Footer section */
+/* Full responsive for smaller size: all sections */
 @media(max-width: 500px) {
 
     /* Navigation section */
@@ -918,7 +918,7 @@ body {
         width: 12rem;
     }
 
-    /* Room section */
+    /* Rooms section */
     .room-card-heading {
         font-size: 1.5rem;
     }
@@ -933,5 +933,11 @@ body {
         width: 12rem;
         padding: 1rem 0.5rem;
         font-size: 1rem;
+    }
+
+    /* Customers section */
+    .customers-paragraph {
+        font-size: 1.4rem;
+        width: 80%;
     }
 }
