@@ -940,4 +940,17 @@ body {
         font-size: 1.4rem;
         width: 80%;
     }
+
+    /* Footer section */
+    .main-part {
+        padding: 2rem;
+    }
+
+    .footer-input {
+        width: 12rem;
+    }
+
+    .image-wrapper {
+        width: 9rem;
+    }
 }
