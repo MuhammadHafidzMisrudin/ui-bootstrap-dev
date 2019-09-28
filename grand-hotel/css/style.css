@@ -837,6 +837,7 @@ body {
     /* Creator part of footer section */
     .creator-part {
         flex-direction: column;
+        text-align: center;
     }
 
     .copyright-text {
