@@ -8,4 +8,4 @@ This repo site is specifically created to display work samples for UI/UX Design.
 
 ## Development Project 2: TBA
 
-- In progress.
+- In development.
