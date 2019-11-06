@@ -6,6 +6,6 @@ This repo site is specifically created to display work samples for UI/UX Design.
 * [Grand Manjoris Hotel](https://grand-manjoris-hotel-ui-design.web.app/) - SPA Design - Link 1.
 * [Grand Manjoris Hotel](https://grand-manjoris-hotel-ui-design.firebaseapp.com/) - Link 2.
 
-## Development Project 2: <TBA>
+## Development Project 2: TBA
 
 - In progress.
