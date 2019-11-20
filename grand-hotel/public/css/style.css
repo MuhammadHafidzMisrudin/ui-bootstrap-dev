@@ -292,7 +292,6 @@ body {
     background: linear-gradient(to right, gold, goldenrod);
     cursor: pointer;
     animation: anim 1s 1s backwards; /* Animation time to appear with delay */
-
 }
 
 /* Hover effect on banner button changes the color */
