@@ -31,6 +31,16 @@ html {
     justify-content: center; /* center flex items */
     align-items: center; /* center flex items */
 }
+
+.section-heading {
+    font-size: 6rem;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 8rem;
+    border-bottom: 0.3rem solid red;
+    text-shadow: 0.2rem 0.2rem 0.5rem #555555;
+}
 /* end of reset and common styles */
 
 /* section 1 */
@@ -191,7 +201,7 @@ html {
     width: 100%;
     height: 100%;
     padding: 12rem 0 12rem 0;
-    background-color: #ffffff;
+    background-color: #d0cfcf;
     display: flex; /* place elements in the center of the page */
     flex-direction: column; /* place elements in the column */
     align-items: center; /* center flex items */
@@ -271,3 +281,61 @@ html {
     box-shadow: 0.2rem 0.2rem 0.5rem #555555;
 }
 /* end of section 3 */
+
+/* section 4 */
+.section-4 {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 0;
+    background-color: #eef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-wrapper {
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: azure;
+    box-shadow: 0.3rem 0.3rem 0.5rem #777;
+}
+
+.project-text {
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.project-name {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+}
+
+.project-technologies {
+    font-size: 1.8rem;
+    color: green;
+}
+
+.project-img {
+    width: 30rem;
+}
+
+.project-link {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    letter-spacing: 0.1rem;
+    border: 0.3rem solid darkred;
+    padding: 0 1rem;
+    background-color: #ffffff;
+}
+/* end of section 4 */
