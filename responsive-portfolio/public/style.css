@@ -303,14 +303,32 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
     background-color: azure;
     box-shadow: 0.3rem 0.3rem 0.5rem #777;
+    position: relative; /* to set the element position for parent */
+    overflow: hidden; /* set overflow element hidden */
+    transition: box-shadow 0.5s; /* make box shadow transition smoother */
+}
+
+/* create hover effect for box shadow */
+.project:hover {
+    box-shadow: 1rem 1rem 1rem #777777;
 }
 
 .project-text {
     text-align: center;
     letter-spacing: 0.1rem;
+    position: absolute; /* to set the element position for child */
+    top: -10rem; /* move element higher */
+    transition: top 0.3s; /* make it smooth transition */
+    z-index: 10; /* move text element above parent container */
+}
+
+/* hover effect for text container */
+.project:hover .project-text {
+    top: 2rem;
+    transition: top 0.3s 0.3s; /* make transition delay and smooth */
 }
 
 .project-name {
@@ -322,11 +340,18 @@ html {
 
 .project-technologies {
     font-size: 1.8rem;
-    color: green;
+    font-weight: 600;
+    color: red;
 }
 
 .project-img {
     width: 30rem;
+    transition: opacity 0.3s;
+}
+
+/* hover effect on image */
+.project:hover .project-img {
+    opacity: 0.1;
 }
 
 .project-link {
@@ -334,8 +359,17 @@ html {
     font-weight: 500;
     color: #333;
     letter-spacing: 0.1rem;
-    border: 0.3rem solid darkred;
+    border: 0.2rem solid darkred;
     padding: 0 1rem;
     background-color: #ffffff;
+    position: absolute; /* to set the element position for child */
+    bottom: -10rem; /* move element lower */
+    transition: bottom 0.3s; /* make it smooth transition */
+}
+
+/* hover effect for button link container */
+.project:hover .project-link  {
+    bottom: 2rem;
+    transition: bottom 0.3s 0.3s; /* make transition delay and smooth */
 }
 /* end of section 4 */
