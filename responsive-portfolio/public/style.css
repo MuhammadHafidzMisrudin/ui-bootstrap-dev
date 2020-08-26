@@ -384,4 +384,76 @@ html {
     flex-direction: column;
     align-items: center;
 }
+
+.quotes-wrapper {
+    width: 80%;
+    position: relative;
+}
+
+.img-quote-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-img {
+    width: 70rem;
+    height: 40rem;
+}
+
+.img-dark-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.quote-content {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 3rem 8rem;
+    text-align: justify;
+    z-index: 100;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	content: '\201C';
+    left: 4rem;
+    top: 1rem;
+}
+
+blockquote:after {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	content: '\201D';
+    right: 21rem;
+    bottom: 2rem;
+}
+
+cite {
+    position: absolute;
+    z-index: 100;
+    color: #ffffff;
+    margin: 2rem 0;
+    right: 0;
+    padding: 0 5rem;
+}
 /* end of section 5 */
