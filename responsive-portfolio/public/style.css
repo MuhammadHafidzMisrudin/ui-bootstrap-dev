@@ -406,6 +406,7 @@ html {
 .quote-img {
     width: 70rem;
     height: 40rem;
+    object-fit: cover; /* maintain the quality of the image */
 }
 
 .img-dark-overlay {
@@ -441,5 +442,6 @@ html {
     margin: 2rem 0;
     text-align: start;
     z-index: 100;
+    bottom: 3rem;
 }
 /* end of section 5 */
