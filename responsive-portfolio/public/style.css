@@ -419,7 +419,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    z-index: 5;
 }
 
 .quote-content {
@@ -442,7 +442,7 @@ html {
     font-weight: 600;
     color: yellow;
     margin: 2rem 0;
-    text-align: start;
+    text-align: center;
     z-index: 100;
     bottom: 3rem;
 }
@@ -497,3 +497,37 @@ html {
     cursor: pointer;
 }
 /* end of section 6 */
+
+/* section 7 */
+.section-7 {
+    width: 100%;
+    height: 30vh;
+    background-color: #222222;
+    flex-direction: column;
+}
+
+.social-media {
+    margin-bottom: 5rem;
+}
+
+.social-media-link {
+    margin: 0 2rem;
+    padding: 0.7rem;
+    background-color: #8d75e0;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+.social-media-link .icon {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+/* end of section 7 */
