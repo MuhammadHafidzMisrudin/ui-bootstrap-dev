@@ -116,6 +116,14 @@ html {
     height: 4rem;
     background-color: #8d75e0;
     box-shadow: 0.2rem 0.2rem 0.5rem #555555;
+    position: absolute;
+    z-index: 300;
+}
+
+/* create a sticky navbar */
+.sticky-navbar {
+    position: fixed;
+    top: 0;
 }
 
 .navbar-link {
