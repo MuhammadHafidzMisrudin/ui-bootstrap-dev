@@ -2,7 +2,7 @@
     Author: Muhammad Hafidz Misrudin
     Description: Proprietary (no permission for copy or use or redistribution)
     Date written: 31/08/2020
-    Date last updated: 31/08/2020
+    Date last updated: 03/09/2020
 */
 
 $(() => {
