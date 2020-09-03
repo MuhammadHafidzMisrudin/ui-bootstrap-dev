@@ -8,11 +8,11 @@
 $(() => {
     // test jquery section.
     console.log("page ready!");
-    function notify() {
-        alert("my dev project button clicked!");
-    }
-    $(".section-1-btn").on("click", notify);
-
+    // function notify() {
+    //     alert("my dev project button clicked!");
+    // }
+    // $(".section-1-btn").on("click", notify);
+    
     // Set a variable to get the navbar element.
     const navbar = document.querySelector(".navbar");
 
