@@ -16,6 +16,12 @@ $(() => {
     // Set a variable to get the navbar element.
     const navbar = document.querySelector(".navbar");
 
+    // Set a variable for all section elements.
+    const allsections = document.querySelectorAll("section");
+
+    // Set a variable for all navbar links class.
+    const navbarLinks = document.querySelectorAll(".navbar-link");
+
     // Set a variable to get the initial position for navbar.
     const navbarOffSetTop = navbar.offsetTop;
     
@@ -31,5 +37,20 @@ $(() => {
             console.log("no sticky section");
             navbar.classList.remove("sticky-navbar");
         }
+
+        // loop through each section.
+        allsections.forEach((section, index) => {
+            // check if it is scrolled down and reaches to the proper section.
+            if (window.pageYOffset >= section.offsetTop - 10) {
+
+                // loop through and remove highlight from each navbar link.
+                navbarLinks.forEach(navbarLink => {
+                    navbarLink.classList.remove("change");
+                });
+
+                // it highlights the particular navbar link of the section.
+                navbarLinks[index].classList.add("change");
+            }
+        });
     });
 });

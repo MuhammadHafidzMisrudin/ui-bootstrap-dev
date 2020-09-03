@@ -137,6 +137,11 @@ html {
     transition: color 0.2s;
 }
 
+/* add new class on change event for each section */
+.change.navbar-link {
+    color: #ffffff;
+}
+
 .navbar-link:hover {
     color: #ffffff;
 }
@@ -153,7 +158,12 @@ html {
     transition: width 0.2s;
 }
 
-/* hover effect on links */
+/* add new class on change event for lines underneath */
+.change.navbar-link::before {
+    width: 100%;
+}
+
+/* hover effect for underneath lines on links */
 .navbar-link:hover::before {
     width: 100%;
 }
