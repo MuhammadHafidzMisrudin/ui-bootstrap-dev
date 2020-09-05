@@ -353,14 +353,14 @@ html {
 }
 
 .project-name {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     color: black;
     text-transform: capitalize;
 }
 
 .project-technologies {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: red;
 }
@@ -376,7 +376,7 @@ html {
 }
 
 .project-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #333;
     letter-spacing: 0.1rem;
