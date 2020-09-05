@@ -90,8 +90,8 @@ $(() => {
     mainScrollingEventFn();
 
     // attaching the event listener function to window's resize event.
-    // reload page when window is resized.
-    // window.addEventListener("resize", () => {  
-    //     window.location.reload();
-    // });
+    window.addEventListener("resize", () => { 
+        // reload page when window is resized. 
+        window.location.reload();
+    });
 });
