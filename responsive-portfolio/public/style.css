@@ -552,3 +552,224 @@ html {
     text-align: center;
 }
 /* end of section 7 */
+
+
+
+/* responsive section */
+@media screen and (max-width: 1200px) {
+    .tech-skills {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        margin: 3rem 2rem;
+    }
+
+    .section-6 {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-heading {
+        font-size: 5rem;
+        margin-bottom: 6rem;
+    }
+
+    .section-1-heading {
+        font-size: 4rem;
+    }
+
+    .person-img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .person-name {
+        font-size: 2.5rem;
+        margin: 1.5rem 0;
+        padding: 0.5rem 5rem;   
+    }
+
+    .person-names-alt {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .navbar-link {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0 1rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .para-about-section {
+        font-size: 1.3rem;
+        padding: 0 26rem;
+    }
+    
+    .para-interests-section {
+        font-size: 1.3rem;
+        margin: 1rem 3rem;
+        padding: 0 23rem;
+    }
+
+    .progress-bar {
+        width: 50rem;
+    }
+
+    .quotes-wrapper {
+        width: 70%;
+    }
+    
+    .img-quote-main {
+        margin: 2rem 0;
+    }
+
+    .quote-img {
+        width: 60rem;
+        height: 35rem;
+    }
+
+    .quote-content {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 2rem 10rem;
+    }
+    
+    .quote-content blockquote {
+        font-weight: 700;
+    }
+    
+    .author {
+        position: absolute;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 1.5rem 0;
+        bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-heading {
+        font-size: 4rem;
+        margin-bottom: 5rem;
+    }
+
+    .section-1-heading {
+        font-size: 3rem;
+        padding: 0 2rem;
+        margin-bottom: 3rem;
+        letter-spacing: 0rem;
+    } 
+
+    .person-name {
+        font-size: 2.5rem;
+        margin: 3rem 0;
+        padding: 0.5rem 5rem;   
+    }
+
+    .section-1-btn {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin: 3rem 0;
+        padding: 0.5rem 2rem;
+    }
+
+    .navbar-link {
+        font-size: 1rem;
+        margin: 0 0.7rem;
+        letter-spacing: 0.1rem;
+    }
+
+    .para-about-section {
+        font-size: 1rem;
+        padding: 0 20rem;
+    }
+    
+    .para-interests-section {
+        font-size: 1.3rem;
+        margin: 2rem 3rem;
+        padding: 0 20rem;
+    }
+
+    .section-3 {
+        padding: 10rem;
+    }
+
+    .section-3-heading {
+        margin-bottom: 10rem;
+    }
+
+    .progress-bar {
+        width: 45rem;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .quotes-wrapper {
+        width: 100%;
+    }
+    
+    .img-quote-main {
+        margin: 2rem 0;
+    }
+
+    .quote-img {
+        width: 50rem;
+        height: 30rem;
+    }
+
+    .quote-content {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 2rem 7rem;
+    }
+    
+    .quote-content blockquote {
+        font-weight: 700;
+    }
+    
+    .author {
+        position: absolute;
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 1.5rem 0;
+        bottom: 3rem;
+    }
+
+    .contact-form {
+        width: 40rem;
+    }
+
+    .copyright {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 58%;
+    }
+
+    .section-heading {
+        font-size: 3.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .para-about-section {
+        font-size: 1rem;
+        padding: 0 13rem;
+    }
+    
+    .para-interests-section {
+        font-size: 1.3rem;
+        margin: 2rem 2rem;
+        padding: 0 11rem;
+    }
+}
+/* end of responsive section */
