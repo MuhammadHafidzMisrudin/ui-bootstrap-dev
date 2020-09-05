@@ -33,7 +33,14 @@ $(() => {
     // create an array to store percentage values of progress bars.
     const progressBarPercents = [98, 60, 50, 60, 50, 70, 80, 50];
 
+    // attaching the event listener function to window's scrolling event.
     window.addEventListener("scroll", () => {
+        // invoke helper function on scrolling event.
+        mainScrollingEventFn();
+    });
+
+    // helper function for scrolling event.
+    const mainScrollingEventFn = () => {
         // property (pageYOffset) -> returns the distance in pixels that has beem scrolled up vertically.
         // property (offsetTop) -> returns the distance from the top edge of the page to the navbar element.
         const testOffSetTop = navbar.offsetTop;
@@ -77,5 +84,14 @@ $(() => {
                 element.previousElementSibling.firstElementChild.textContent = progressBarPercents[index];
             });
         }
+    }
+
+    // invoke to run helper function once by default when page is ready.
+    mainScrollingEventFn();
+
+    // attaching the event listener function to window's resize event.
+    window.addEventListener("resize", () => {
+        // reload page when window is resized.
+        window.location.reload();
     });
 });
