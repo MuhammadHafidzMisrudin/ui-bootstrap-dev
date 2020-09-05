@@ -12,22 +12,32 @@ $(() => {
     //     alert("my dev project button clicked!");
     // }
     // $(".section-1-btn").on("click", notify);
-    
-    // Set a variable to get the navbar element.
+
+    // set a variable to get the navbar element.
     const navbar = document.querySelector(".navbar");
 
-    // Set a variable for all section elements.
+    // set a variable to get all section elements.
     const allsections = document.querySelectorAll("section");
+    // console.log("allsections -> ", allsections);
 
-    // Set a variable for all navbar links class.
+    // set a variable to get all navbar links class.
     const navbarLinks = document.querySelectorAll(".navbar-link");
+    // console.log("navbarLinks -> ", navbarLinks);
 
-    // Set a variable to get the initial position for navbar.
+    // set a variable to get the initial position for navbar.
     const navbarOffSetTop = navbar.offsetTop;
-    
+
+    // set a variable to get progress bar wrapper class.
+    const progress = document.querySelector(".progress-bars-wrapper");
+
+    // create an array to store percentage values of progress bars.
+    const progressBarPercents = [98, 60, 50, 60, 50, 70, 80, 50];
+
     window.addEventListener("scroll", () => {
         // property (pageYOffset) -> returns the distance in pixels that has beem scrolled up vertically.
         // property (offsetTop) -> returns the distance from the top edge of the page to the navbar element.
+        const testOffSetTop = navbar.offsetTop;
+        const yOffset = window.pageYOffset;
 
         // compare the page-y-offset to the initial position of navbar.
         if (window.pageYOffset >= navbarOffSetTop) {
@@ -52,5 +62,20 @@ $(() => {
                 navbarLinks[index].classList.add("change");
             }
         });
+
+        // compare the page-y-offset to the initial position of progress bar wrapper class.
+        // the sume of pageYOffset + innerHeight returns the height of the window
+        // for the height of the content that is visible on the page.
+        if (window.pageYOffset + window.innerHeight >= progress.offsetTop) {
+            // select all progress percent class and loop through all
+            document.querySelectorAll(".progress-percent").forEach((element, index) => {
+                // change style for width property to the values in array accordingly.
+                element.style.width = `${progressBarPercents[index]}%`;
+
+                // use percentage values from array dynamically and 
+                // display them in markup for span elements within progress bar class dynamically.
+                element.previousElementSibling.firstElementChild.textContent = progressBarPercents[index];
+            });
+        }
     });
 });

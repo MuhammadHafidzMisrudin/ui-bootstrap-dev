@@ -263,11 +263,13 @@ html {
     font-weight: 700;
 }
 
+/* class for displaying progress bars */
 .progress-percent {
-    width: 90%;
+    width: 0%; /* 90% */
     height: 100%;
     background-color: #7aee7a;
     border-radius: 0.3rem;
+    transition: width 0.8s 0.3s ease-in-out;
 }
 
 .tech-skills {
